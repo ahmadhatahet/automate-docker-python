@@ -25,9 +25,27 @@ git clone https://github.com/ahmadhatahet/automate-docker-python.git
 cd automate-docker-python
 ```
 
-2. Run the following command:
+2. Install pip requirements
+```
+pip install -r requirement.txt
+```
+
+3. Run the following command:
 ```
 python test_workflow_docker/main.py
+```
+
+<br />
+
+# Expected Output (Log File)
+```
+2024-06-05T08:57:51.217447782Z test_boolean (test.test_sample.Testing) ... ok
+2024-06-05T08:57:51.217473784Z test_string (test.test_sample.Testing) ... ok
+2024-06-05T08:57:51.217475923Z
+2024-06-05T08:57:51.217477214Z ----------------------------------------------------------------------
+2024-06-05T08:57:51.217478516Z Ran 2 tests in 0.000s
+2024-06-05T08:57:51.217479703Z
+2024-06-05T08:57:51.217480823Z OK
 ```
 
 <br />
